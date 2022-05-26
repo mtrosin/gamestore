@@ -1,11 +1,11 @@
 <?php
 
-namespace App\\GraphQL\\Mutations\\Game;
+namespace App\GraphQL\Mutations\Game;
 
-use App\\Models\\Game;
-use GraphQL\\Type\\Definition\\Type;
-use Rebing\\GraphQL\\Support\\Facades\\GraphQL;
-use Rebing\\GraphQL\\Support\\Mutation;
+use App\Models\Game;
+use GraphQL\Type\Definition\Type;
+use Rebing\GraphQL\Support\Facades\GraphQL;
+use Rebing\GraphQL\Support\Mutation;
 
 class UpdateGameMutation extends Mutation
 {

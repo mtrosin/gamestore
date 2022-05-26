@@ -1,11 +1,11 @@
 <?php
 
-namespace App\\GraphQL\\Queries\\Category;
+namespace App\GraphQL\Queries\Category;
 
-use App\\Models\\Category;
-use GraphQL\\Type\\Definition\\Type;
-use Rebing\\GraphQL\\Support\\Facades\\GraphQL;
-use Rebing\\GraphQL\\Support\\Query;
+use App\Models\Category;
+use GraphQL\Type\Definition\Type;
+use Rebing\GraphQL\Support\Facades\GraphQL;
+use Rebing\GraphQL\Support\Query;
 
 class CategoryQuery extends Query
 {

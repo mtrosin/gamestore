@@ -1,10 +1,10 @@
 <?php
 
-namespace App\\GraphQL\\Mutations\\Category;
+namespace App\GraphQL\Mutations\Category;
 
-use App\\Models\\Category;
-use Rebing\\GraphQL\\Support\\Mutation;
-use GraphQL\\Type\\Definition\\Type;
+use App\Models\Category;
+use Rebing\GraphQL\Support\Mutation;
+use GraphQL\Type\Definition\Type;
 
 class DeleteCategoryMutation extends Mutation
 {

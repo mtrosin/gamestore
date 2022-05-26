@@ -1,11 +1,11 @@
 <?php
 
-namespace App\\GraphQL\\Queries\\Game;
+namespace App\GraphQL\Queries\Game;
 
-use App\\Models\\Game;
-use GraphQL\\Type\\Definition\\Type;
-use Rebing\\GraphQL\\Support\\Facades\\GraphQL;
-use Rebing\\GraphQL\\Support\\Query;
+use App\Models\Game;
+use GraphQL\Type\Definition\Type;
+use Rebing\GraphQL\Support\Facades\GraphQL;
+use Rebing\GraphQL\Support\Query;
 
 class GameQuery extends Query
 {
